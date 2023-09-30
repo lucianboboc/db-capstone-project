@@ -769,8 +769,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='25' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='27' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='51000' id='5' is-fixed='true' name='Customers Sales' w='98400' x='800' y='1000'>
                   <layout-cache minheight='247' type-h='scalable' type-w='cell' />
                   <zone-style>
@@ -806,7 +806,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' name='Customers Sales'>
+    <window class='worksheet' maximized='true' name='Customers Sales'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -936,7 +936,7 @@
       </viewpoint>
       <simple-id uuid='{CD83327E-E6DE-4947-822F-DD8BFD56C211}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Customers Sales'>
           <zoom type='entire-view' />
